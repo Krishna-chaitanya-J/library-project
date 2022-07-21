@@ -19,7 +19,7 @@ spec:
         app: restapi
     spec:
       containers:
-      - image: chiatu561/library:v1
+      - image: chaitu561/library:v1
         name: library
         resources: {}
         env:
