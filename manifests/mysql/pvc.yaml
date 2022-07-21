@@ -4,7 +4,7 @@ metadata:
   name: mysql-pv-claim
   namespace: database 
 spec:
-  storageClassName: standard 
+  storageClassName: hostpath 
   accessModes:
     - ReadWriteOnce
   resources:
